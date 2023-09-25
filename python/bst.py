@@ -20,7 +20,7 @@ class Node:
 
 class BinarySearch:
     def __init__(self):
-        self.tree = None
+        self.tree: Node = None
         pass
 
     def insert(self, val):
@@ -52,6 +52,25 @@ class BinarySearch:
         else:
             return self._search(val, node.right_node)
 
+    def get_height(self):
+        # h = max(self.traverse_for_height(self.tree.left_node), self.traverse_for_height(self.tree.right_node))
+        lh = self.traverse_for_height(self.tree.left_node)
+        rh = self.traverse_for_height(self.tree.right_node)
+
+        return max(lh, rh)
+
+    def traverse_for_height(self, node, height=0):
+        if node is None:
+            return 0
+
+        if node.left_node:
+            return self.traverse_for_height(node.left_node, height) + 1
+
+        if node.right_node:
+            return self.traverse_for_height(node.right_node, height) + 1
+
+        return 1
+
     def traverse(self):
         q: List[Node] = [self.tree]
         while q:
@@ -62,7 +81,7 @@ class BinarySearch:
             if n.left_node is not None:
                 q.append(n.left_node)
 
-    def _inorder_display(self,node:Node):
+    def _inorder_display(self, node: Node):
         if node is None:
             return
         self._inorder_display(node.left_node)
@@ -73,13 +92,17 @@ class BinarySearch:
         self._inorder_display(self.tree)
 
 
-
 def bst():
-    examples = [3, 10, 2]
+    # examples = [3, 10, 2,100]
     tree = BinarySearch()
     tree.insert(50)
     tree.insert(3)
     tree.insert(100)
+    tree.insert(2)
+    tree.insert(1)
+    tree.insert(1000)
+
+    print(f"height {tree.get_height()}")
 
     tree.display()
 
