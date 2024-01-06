@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pi3pRUUuG98e0BviAd7ypo3Bkgi94sjyH6AfWvsSUTJVnDQ3NElZ1myEjfz7pPktSsCw4gs6aUjc7yZTU2qhQA==",
+  "success": true,
+  "projectFilePath": "D:\\DevApps\\AlgoPractice\\C#\\BST\\TwoSum\\TwoSum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ather\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.0\\microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512",
+    "C:\\Users\\ather\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+    "C:\\Users\\ather\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.0\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

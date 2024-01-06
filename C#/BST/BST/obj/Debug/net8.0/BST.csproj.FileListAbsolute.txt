@@ -1,0 +1,15 @@
+D:\DevApps\AlgoPractice\C#\BST\BST\bin\Debug\net8.0\BST.exe
+D:\DevApps\AlgoPractice\C#\BST\BST\bin\Debug\net8.0\BST.deps.json
+D:\DevApps\AlgoPractice\C#\BST\BST\bin\Debug\net8.0\BST.runtimeconfig.json
+D:\DevApps\AlgoPractice\C#\BST\BST\bin\Debug\net8.0\BST.dll
+D:\DevApps\AlgoPractice\C#\BST\BST\bin\Debug\net8.0\BST.pdb
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.AssemblyInfoInputs.cache
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.AssemblyInfo.cs
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.csproj.CoreCompileInputs.cache
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.sourcelink.json
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.dll
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\refint\BST.dll
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.pdb
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\BST.genruntimeconfig.cache
+D:\DevApps\AlgoPractice\C#\BST\BST\obj\Debug\net8.0\ref\BST.dll
